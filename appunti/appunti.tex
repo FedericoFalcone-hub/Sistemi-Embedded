@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[normalem]{ulem}
+
+% Titolo
+\title{Appunti sistemi embedded}
+\author{Federico Falcone}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+sketch->programma \\
+no protezione memoria
+
+\section{Elettricità}
+Elettricità composta da elettroni che scorrono. Essi scorrono se il materiale lo permette. Applicando una forza elettrica l conduttore gli elettroni si spostano. 
+La forza applicata per spostare gli elettroni si chiama \textcolor{red}{tensione} (V). La tensione è la forza con cui io tiro o spingo gli eletrtoni negli elettroni. Tanto è più la forza la velocità non aumenta o diminuisce. Ciò che succede è che aumenta la quantità 
+di elettroni che scorrono. La quantit di elettroni che si muovono nella quantità di tempo si chiama \textcolor{red}{intensità} (A, ovvero Coulomb per secondo). Quindi aumentando la tensione aumenta l'intensità.
+La legge che regola la variazione del flusso di corrente rispetto alla forza che io applico è la legge di Ohm e coinvolge un terzo parametro che dice quanto è gnucco il conduttore nel reagire all'applicazione della forza. 
+\\ Anche se non è vero, si definisce un conduttore ciò che ha resistenza 0 (in realtà e bassissima). Tutto ciò che oppone resistenza sostanziale, si chiama \textcolor{red}{resistenza}.
+\\ La legge di Ohm ci permette di calcolare uno dei 3 parametri conoscendone 2.
+La resistenza dipende anche dalla dimensione del conduttore. 
+\\\textbf{Legge di Ohm}:$V=R \cdot I $\\
+\textbf{Potenza}\\
+La potenza ci dice quanto lavoro posso fare con un certo apparato, o quanta energia sta consumando in un dato istante, o quanto può durare un batteria. ci permette di capire quanto è "forte", quanto è capace di fare operazioni importanti.
+Si misuta in Watt (W)
+\[ P=V \cdot I \]
+La resistenza nell'opporsi agli elettroni, fa un lavoro, e quindi oppenendosi alla tensione brucia quel lavoro in calore . Trasforma il lavoro che ha fatto la tensione.
+\\ La corrente gira in un circuito, se c'è un'interruzione si parla di \textcolor{red}{circuito aperto} (la corrente non circola). Nonostante ciò la corrente continua a fluire (perchè non esiste un isolante che isoli COMPLETAMENTE).
+\\ La batteria è carica o scarica si miscura o gli Ah. Ampere ora permette di capire quanto la batteria è in grado di erogare id corrente nel tempo. 
+\\ Per capire la carica della batteria si può misurare la tensione, o misurando la potenza erogata dalla batteria. Per misurarla bisogna tirargli fuori la corrente tramite un consumatore che gli tira fuori più corrente possibile. Per fare ciò la resistenza deve essere più vicino allo zero possibile, creando così un
+quasi corto circuito. Cosa io attacco per testare il suo carico serve a testare se riesce a gestire questo carico. \textbf{Problemi}: il carico massimo è molto diffiche da misurare, cortocircuitare crea calore (e  quindi si incendia). Per misurare in sicurezza si può, ma non misura comunque la potenza massima.
+\\ Qualunque oggetto che assorbe potenza elettrica è un carico.
+\\ Un meccanismo di protezione per evitare che un carico assorba più potenza di quella che può gestire è il fusibile. Esso si brucia se la potenza assorbita è troppo alta, interrompendo così il circuito e proteggendo il carico. (Oggi si usano i magnetotermici, che invece di bruciarsi, si staccano, e possono essere riattaccati una volta risolto il problema).
+
+\end{document}
