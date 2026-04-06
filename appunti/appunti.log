@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  3 APR 2026 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  6 APR 2026 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/federico/Documents/Uni/Sistemi Embedded/appunti/appunti.tex"
-(/home/federico/Documents/Uni/Sistemi Embedded/appunti/appunti.tex
+**/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex
+(/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -300,25 +300,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./appunti.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<Images/circuito1.png, id=16, 674.52pt x 1063.975pt>
+File: Images/circuito1.png Graphic file (type png)
+<use Images/circuito1.png>
+Package pdftex.def Info: Images/circuito1.png  used on input line 51.
+(pdftex.def)             Requested size: 113.81102pt x 179.50961pt.
+<Images/circuito2.png, id=17, 1196.47pt x 1086.0575pt>
+File: Images/circuito2.png Graphic file (type png)
+<use Images/circuito2.png>
+Package pdftex.def Info: Images/circuito2.png  used on input line 67.
+(pdftex.def)             Requested size: 113.81102pt x 103.29253pt.
+ [3 <./Images/circuito1.png (PNG copy)> <./Images/circuito2.png>]
+<Images/gpio.png, id=24, 1248.665pt x 1035.87pt>
+File: Images/gpio.png Graphic file (type png)
+<use Images/gpio.png>
+Package pdftex.def Info: Images/gpio.png  used on input line 78.
+(pdftex.def)             Requested size: 113.81102pt x 94.40973pt.
+ [4 <./Images/gpio.png>] (./appunti.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5276 strings out of 476171
- 80157 string characters out of 5795119
+ 5307 strings out of 476171
+ 80855 string characters out of 5795119
  1930975 words of memory out of 5000000
- 27210 multiletter control sequences out of 15000+600000
- 565731 words of font info for 67 fonts, out of 8000000 for 9000
+ 27240 multiletter control sequences out of 15000+600000
+ 566373 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 61i,6n,69p,444b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on appunti.pdf (2 pages, 85697 bytes).
+ 61i,7n,69p,504b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on appunti.pdf (4 pages, 627522 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

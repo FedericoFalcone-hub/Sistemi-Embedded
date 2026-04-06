@@ -1,9 +1,9 @@
-PWD /home/federico/Documents/Uni/Sistemi Embedded/appunti
+PWD /home/federico/Documents/Sistemi-Embedded/appunti
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/federico/Documents/Uni/Sistemi Embedded/appunti/appunti.tex
+INPUT /home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex
 OUTPUT appunti.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -126,9 +126,6 @@ INPUT ./appunti.toc
 INPUT ./appunti.toc
 INPUT appunti.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-OUTPUT appunti.toc
-OUTPUT appunti.pdf
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
@@ -137,11 +134,35 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+OUTPUT appunti.toc
+OUTPUT appunti.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Images/circuito1.png
+INPUT ./Images/circuito1.png
+INPUT ./Images/circuito1.png
+INPUT ./Images/circuito1.png
+INPUT ./Images/circuito1.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Images/circuito2.png
+INPUT ./Images/circuito2.png
+INPUT ./Images/circuito2.png
+INPUT ./Images/circuito2.png
+INPUT ./Images/circuito2.png
+INPUT ./Images/gpio.png
+INPUT ./Images/gpio.png
+INPUT ./Images/gpio.png
+INPUT ./Images/gpio.png
+INPUT ./Images/gpio.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT appunti.aux
+INPUT /home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

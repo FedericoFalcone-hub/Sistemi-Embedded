@@ -44,5 +44,48 @@ La resistenza nell'opporsi agli elettroni, fa un lavoro, e quindi oppenendosi al
 quasi corto circuito. Cosa io attacco per testare il suo carico serve a testare se riesce a gestire questo carico. \textbf{Problemi}: il carico massimo è molto diffiche da misurare, cortocircuitare crea calore (e  quindi si incendia). Per misurare in sicurezza si può, ma non misura comunque la potenza massima.
 \\ Qualunque oggetto che assorbe potenza elettrica è un carico.
 \\ Un meccanismo di protezione per evitare che un carico assorba più potenza di quella che può gestire è il fusibile. Esso si brucia se la potenza assorbita è troppo alta, interrompendo così il circuito e proteggendo il carico. (Oggi si usano i magnetotermici, che invece di bruciarsi, si staccano, e possono essere riattaccati una volta risolto il problema).
-
+\pagebreak
+\paragraph{Lezione 4} \mbox{}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{Images/circuito1.png}
+\end{figure}
+Quando misuro una tensione, misuro un'energia potenziale. Quando io misuro in un punto è come se misurassi l'altezza/inclinazione di un piano inclinato. In quel punto ottengo qualche tipo di effetto. Il \textbf{groud} (terra) è come il piano nel piano inclinato. Tutto ciò che sta sopra al ground è una tensione utilizzabile. Una resistenza è come un piano inclinato e tanto più quella resistenza è bassa,
+tanto più posso estrarre lavoro. Se metto una resistenza molto bassa, è come mettere un piano molto inclinato e quindi la biglia rotola molto velocemente. Al contrario la biglia rotola più lentamente. 
+\\ Nel momento in cui metto una resistenza, sto mettendo un piano inclinato. Nonostante le resistenze, il numero di elettroni che passano è sempre lo stesso.
+\\ Attaccando delle resistenze in serie, è possibile ridimensionarla in un'unica resistenza. La corrente che passa è la combinazione di tutti gli effetti di strozzatura delle resistenze. Mettendo le resistenze in serie serve nel momento in cui abbiamo bisogno di una resistenza con un valore in particolare, ma che non esiste in commercio. 
+\\ In caso volessimo sapere la \textbf{quota} (tensione) all'uscita di una resistenza.
+\\ Quando una corrente passa per una resistenza, si ha una \textbf{caduta di tensione}, ovvero la tensione si riduce. In altre parole la caduta di tensione è la tensione che devo applicare alla resistenza per farci passare esattamente una corrente.
+\subsection{Prima legge di Kirchhoff}
+La somma delle tensioni in un circuito fa 0. 
+\[ \sum_{i=1}^n V_i = 0 \]
+La somma delle correnti di un nodo è 0.
+\[ \sum_{i=1}^n I_i = 0 \]
+\subsection{Connessione in parallelo}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{Images/circuito2.png}
+\end{figure}
+Il flusso di corrente su suddivide in un ramo e nell'altro. La corrente si distribuisce in maniera proporzionale alla resistenza. Tanto è più bassa, tanto più corrente passa. Per ottenere la resistenza equivalente di due resistenze in parallelo, si usa la formula:
+\[ \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} \]
+\[ R_{eq} = \frac{R_1 \cdot R_2}{R_1 + R_2} \]
+\\subsection{Segnale}
+Mettere le resistenze in parallelo è utile quando dobbiamo dissipare la potenza.
+\\ Qualsiasi carico attacchiamo, esso influisce su tutto il circuito.
+\\ Alimentare qualcosa con un partitore non è intelligente. Cosa si può attaccare quindi al partitore disturbandolo il meno possibile? Nell'immagine sopra, estraiamo la potenza dal partitore (molto piccola), invece se modifichiamo la resistenza in parallelo:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{Images/gpio.png}
+\end{figure}
+In questo modo, la resistenza in parallelo è molto più grande di quella del partitore, e quindi la corrente che passa è molto più piccola. Viene usato come segnale. 
+È un carico che influenza poco il partitore, perchè porta via il minimo indispensabile. Esso porta \textbf{informazioni}. Se quella resistenza è un qualche tipo di circuito che memorizza un bit alto se deve passare qualcosa e un bit basso se non deve passare niente, porta informazione.
+Porta informazione se nella parte collegata in parallelo c'è tensione o meno. Non si sa che tensione c'è, ma si sa solo che c'è una tensione sufficiente a far dire che sta passando la corrente. La quantità di corrente da dare per scrivere dipende dal tipo di circuito.
+\\ Si può calcolare la resistenza interna del gpio. Il gpio si può considerare come una resistenza. Il GPIO lo usiamo in output e input. Se uso il GPIO per leggere un dato bisogna confranotarsi con la circuiteria che c'è intorno. Se lo uso come "interruttore", lo si mette in serie al circuito. Bisogna fare attenzione 
+però alla resistenza perchè ha un resistenza bassa ma dissipazione massima. Si comporta come una resistenza di basso valore, ma non di grande potenza. Se usiamo quindi il GPIO come sinc per una cosa di qualche ampere si brucia, perchè lì può passare solo qualche decina di milliampere.
+\\ Un GPIO si può utilizzare come 
+\begin{itemize}
+    \item alimentazione;
+    \item lettura di uno stato elettrico;
+    \item interruttore;
+\end{itemize}
 \end{document}
