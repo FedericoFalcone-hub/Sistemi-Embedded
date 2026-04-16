@@ -88,4 +88,80 @@ però alla resistenza perchè ha un resistenza bassa ma dissipazione massima. Si
     \item lettura di uno stato elettrico;
     \item interruttore;
 \end{itemize}
+\pagebreak
+\subsection{Lezione 6}
+Il GPIO è il pin con 3.3 volt. Attenzione ad attaccare i poli giusti nei led, il lato lungo, l'\textbf{anodo}, è il polo positivo, mentre l'altro il \textbf{catodo} è quello negativo. 
+\\ Nelle specifiche di un oggetto è indicata in quale condizioni il dispositivo funziona. Non è solo quindi la parte elettronica da considerare, ma anche tutti gli aspetti esterni.
+\\ Il GPIO da al massimo 20 mA.
+\\ Nel setup, dobbiamo indicare quale pin vogliamo programmare e come deve funzionare. Ad esempio, se ho collegato sul pin 13 un led, devo indicare che il pin in utilizzo è il 13.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Images/blink.png}
+\end{figure}
+Con la classe \texttt{Serial} è possibile comunicare con il computer. Per inizializzare la comunicazione, nel steup va messo \texttt{Serial.begin(115200)} dove 115200 è la velocità di trasmissione in baudrate.
+Per stampare, utilizzo \texttt{Serial.print()}. Posso fare anche l'input, dopo averlo inizializzato nel setup, posso fare \texttt{digitalRead(in)}.
+\subsection{Lezione 7}
+\begin{figure}[H]
+    \includegraphics[width=0.5\textwidth]{Images/pullupdown.png}
+    \includegraphics[width=0.5\textwidth]{Images/pullupdown2.png}
+
+\end{figure}
+Il \textbf{bottone} o interrope o chiude il circuito, mentre il deviatore non interrompe/chiude, ma semplicemente chiude 2 circuiti diversi. Il bottone quando lo schiaccio cambia stato e quando lo lascio torna allo stato precedente. C'è la distinzione tra \textbf{normalmente aperto} e \textbf{normalmente chiuso}. Nel primo caso, 
+quando non è premuto, il circuito è aperto, mentre nel secondo caso, quando non è premuto, il circuito è chiuso.
+\\ Nell'immagine, normalmente il primo bottone non si usa.
+\\ Il terzo è il \textbf{pullup}, quando chiudo il circuito porto giù la tensione. La resistenza di pullup è quella che mi tiene la tensione del GPIO alta, a meno che io non cortocircuiti verso massa.
+\\ Ragionando sui valori delle resistenze, la resistenza di pullup deve essere abbastanza bassa in modo che la tensione sia nei limiti \textbf{low} (0-0.8 V) e \textbf{high} (2.8-5 V), la via di mezzo non è determinato, se legge quello, non da informazione.
+\\ Nel pinMode, tra le mode c'è l'\texttt{INPUT\_PULLUP} che è il modo in cui dico alla board di attivare il 3 circuito, cioè un meccanismo per cui il gpio internamente ha la resistenza di pullup, attaccat già all'alimentazione. A noi interessa solo attaccarci un bottone che va a massa. 
+\\ Quando si chiude il circuito, durante la chiusura non c'è un singolo evento. Quindi mentre si chiude, si può leggere 01010101 (\textbf{bouncing}) e quindi magari, nel momento in cui andiamo a leggere, leggiamo uno dei valori di passaggio, dando così una interpretazione errata. Col GPIO resto in ascolto, leggendo veloccisamnete (polling), in cui quando legge un cambio di valore,
+ignora la lettura per un periodo di tempo, verificando così un cambio di stato. Sono certo che il cambio di stato lo è se uso uno dei 2 circuiti 2 o 3. Questa cosa si chiama aperazione di \textbf{debouncing}. La durata del bouncing non la conosciamo, quindi la durata è programmabile (un progetto potrebbe essere la programmazione dinamica con dei sensori). Non mettersi a fare il
+debouncing a mano, perchè ci sono librerie già create da altri. Se calcoliamo il tempo troppo piccolo prende gli errori, se è troppo grande non prende i comandi iterattivi. Invece di fare polling, si fa \textbf{interact}, ovvero quando c'è un cambio di stato, esegue una funzione (in cui si farà debouncing).
+
+\subsubsection{GPIO analogico}
+Finora abbiamo parlato di GPIO digitali, ma esistono anche quelli \textbf{analogici}. In quelli digitali, in output o do tensione o metto a massa, mentre in input leggo una tensione. I GPIO analogici (non tutte le board le hanno) permettono di 
+\begin{itemize}
+    \item Conversione AD (analogico-digitale), in input, legge una tensione, la misura e resituisce un numero. La tensione viene misurata usando una resistenza. Bisogna cambiarlo il meno possibile, il che significa che deve portare via la minima corrente possibile. Utilizziamo una resistenza il più alta possibile che porti via quel minimo indispansabile per ottenere una misura.
+    C'è una tensione di riferimento (rappresentata da max ranfe) (AREF O VREF sono piedini in cui mettere la tensione di riferimento del comparatore per poi avere la lettura corrispondente) che potrebbe essere la tensione di alimentazione della board o anche qualcosa di diverso. C'è un comparatore che calcola il rapporto tra l'ingresso e la tensione di riferimento e restituisce questa informazione come numero, solitamente intero. Il range max è tipicamente 1024 o 4096. Il numero resituito deve essere 
+    rapportata. Se misuro 732, ad esempio, 732/1024 * AREF (ad esempio 2V). SE non mettiamo nulla, essi sono collegate all'imentazione, quindi 5V o 3,3V. (aref non può avere tensione superiore all'alimentazione). Perchè scendere? È più preiso, perchè so se devo misurare delle tensioni piccole è inutile lasciarli alte. 
+    \\ Se ripeto le misure nel tempo. 
+    \item Conversioen DA (digitale-analogico), in output, fornendo un numero, genera una tensione "programmabile", una tensione tra un minimo e un massimo.
+\end{itemize}
+Quello analogico genera una tensione programmabile
+\subsection{Lezione 8}
+Colleghiamo come il circuito 1, ma funziona come il 3.
+\\ Adesso colleghiamo il circuito in pull-up in questo modo:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/pullup.png}
+\end{figure}
+Così facendo, eseguendo questo codice:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/pullup_code.png}
+\end{figure}
+Nel monitor si potrà vedere che, a riposo restituisce 1, mentre se clicco il bottone restituisce 0. Utilizzando l'analogico invece, se non premo il bottone, restituisce una serie di numeri, mentre se lo premo, restituisce 0.
+\\ Un componente utile sono il \textbf{potenziometro}, che è una resistenza variabile tramite un cursore. I 2 reofori esterni rappresentano il collegamento con la resistenza. Quello in mezzo è il pattino, e fornisce una tensione variabile a seconda della posizione della variabile, quindi:
+\begin{center}
+\begin{tabular}{rcl}
+\textbf{Terminale 1} & $\rightarrow$ & GND \\
+\textbf{Cursore}     & $\rightarrow$ & A0  \\
+\textbf{Terminale 2} & $\rightarrow$ & 5V  \\
+\end{tabular}
+\end{center}
+Un altro componente utile è la \textbf{fotoresistenza}, è un sensore. Possiamo pensare quindi di sostituire il bottone con la fotoresistenza, ma non funziona. 
+Il circuito corretto è il seguente:
+\begin{figure}[H]
+    \includegraphics[width=0.5\textwidth]{Images/photoresistor.png}
+    \includegraphics[width=0.5\textwidth]{Images/photoresistor_circuit.png}
+\end{figure}
+La mia fotoresistenza necessita di una resistenza da 10 Kohm.
+\\ Potremmo voler utilizzare un potenziometro al posto della resistenza fissa. Bata quindi sostituirla con il potenziometro:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Images/photoresistor_potentiometer.png}
+\end{figure}
+Se nel loop voglio campionare nel tempo diversi componenti, ma a tempi diversi, posso usare il metodo \texttt{millis()}. \textbf{NON USARLO, RISCHIO BOCCIATURA}. Se dobbiamo fare cose diverse a periodicità diverse, esistono già delle librerie.
+\\ In un progetto reale, nel loop ci troveremo soltanto una singola invocazione di funziona che è la funzione che invocherà poi le altre funzioni.
+\\ Perchè vorremmo dare dei temi a diverse funzioni? Perchè magari ci sono funzioni che hanno bisogno di essere eseguite più raramente di altre. Ad esempio, un gps deve essere eseguito meno rispetto ad un rilevamento degli urti. Può essere anche che è il sensore ad essere lento.
+\subsection{Lezione 9}
+
 \end{document}

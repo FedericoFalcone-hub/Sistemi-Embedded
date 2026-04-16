@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  6 APR 2026 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  16 APR 2026 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,25 +317,78 @@ File: Images/gpio.png Graphic file (type png)
 <use Images/gpio.png>
 Package pdftex.def Info: Images/gpio.png  used on input line 78.
 (pdftex.def)             Requested size: 113.81102pt x 94.40973pt.
- [4 <./Images/gpio.png>] (./appunti.aux)
+ [4 <./Images/gpio.png>]
+<Images/blink.png, id=29, 1722.435pt x 586.19pt>
+File: Images/blink.png Graphic file (type png)
+<use Images/blink.png>
+Package pdftex.def Info: Images/blink.png  used on input line 99.
+(pdftex.def)             Requested size: 455.24411pt x 154.92816pt.
+<Images/pullupdown.png, id=30, 1967.35pt x 1738.495pt>
+File: Images/pullupdown.png Graphic file (type png)
+<use Images/pullupdown.png>
+Package pdftex.def Info: Images/pullupdown.png  used on input line 105.
+(pdftex.def)             Requested size: 227.62206pt x 201.12971pt.
+<Images/pullupdown2.png, id=31, 1487.5575pt x 1328.965pt>
+File: Images/pullupdown2.png Graphic file (type png)
+<use Images/pullupdown2.png>
+Package pdftex.def Info: Images/pullupdown2.png  used on input line 106.
+(pdftex.def)             Requested size: 227.62206pt x 203.35126pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 105--107
+[][] [] 
+ []
+
+[5 <./Images/blink.png> <./Images/pullupdown.png> <./Images/pullupdown2.png>]
+<Images/pullup.png, id=36, 1477.52pt x 981.6675pt>
+File: Images/pullup.png Graphic file (type png)
+<use Images/pullup.png>
+Package pdftex.def Info: Images/pullup.png  used on input line 134.
+(pdftex.def)             Requested size: 227.62206pt x 151.22818pt.
+<Images/pullup_code.png, id=37, 1102.1175pt x 736.7525pt>
+File: Images/pullup_code.png Graphic file (type png)
+<use Images/pullup_code.png>
+Package pdftex.def Info: Images/pullup_code.png  used on input line 139.
+(pdftex.def)             Requested size: 227.62206pt x 152.15942pt.
+ [6 <./Images/pullup.png>]
+<Images/photoresistor.png, id=41, 2589.675pt x 1483.5425pt>
+File: Images/photoresistor.png Graphic file (type png)
+<use Images/photoresistor.png>
+Package pdftex.def Info: Images/photoresistor.png  used on input line 153.
+(pdftex.def)             Requested size: 227.62206pt x 130.38916pt.
+<Images/photoresistor_circuit.png, id=42, 1493.58pt x 626.34pt>
+File: Images/photoresistor_circuit.png Graphic file (type png)
+<use Images/photoresistor_circuit.png>
+Package pdftex.def Info: Images/photoresistor_circuit.png  used on input line 154.
+(pdftex.def)             Requested size: 227.62206pt x 95.44742pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 153--155
+[][] [] 
+ []
+
+<Images/photoresistor_potentiometer.png, id=43, 1541.76pt x 1547.7825pt>
+File: Images/photoresistor_potentiometer.png Graphic file (type png)
+<use Images/photoresistor_potentiometer.png>
+Package pdftex.def Info: Images/photoresistor_potentiometer.png  used on input line 160.
+(pdftex.def)             Requested size: 182.09486pt x 182.79735pt.
+[7 <./Images/pullup_code.png> <./Images/photoresistor.png> <./Images/photoresistor_circuit.png> <./Images/photoresistor_potentiometer.png>] [8] (./appunti.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5307 strings out of 476171
- 80855 string characters out of 5795119
- 1930975 words of memory out of 5000000
- 27240 multiletter control sequences out of 15000+600000
- 566373 words of font info for 69 fonts, out of 8000000 for 9000
+ 5367 strings out of 476171
+ 82631 string characters out of 5795119
+ 1931975 words of memory out of 5000000
+ 27299 multiletter control sequences out of 15000+600000
+ 566541 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 61i,7n,69p,504b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on appunti.pdf (4 pages, 627522 bytes).
+ 61i,7n,69p,581b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on appunti.pdf (8 pages, 3879251 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
