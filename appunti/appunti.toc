@@ -1,9 +1,32 @@
-\contentsline {section}{\numberline {1}Elettricità}{2}{}%
-\contentsline {paragraph}{Lezione 4}{3}{}%
-\contentsline {subsection}{\numberline {1.1}Prima legge di Kirchhoff}{3}{}%
-\contentsline {subsection}{\numberline {1.2}Connessione in parallelo}{3}{}%
-\contentsline {subsection}{\numberline {1.3}Lezione 6}{5}{}%
-\contentsline {subsection}{\numberline {1.4}Lezione 7}{5}{}%
-\contentsline {subsubsection}{\numberline {1.4.1}GPIO analogico}{6}{}%
-\contentsline {subsection}{\numberline {1.5}Lezione 8}{6}{}%
-\contentsline {subsection}{\numberline {1.6}Lezione 9}{8}{}%
+\contentsline {section}{\numberline {1}Elettricità}{2}{section.1}%
+\contentsline {paragraph}{Lezione 4}{3}{section*.2}%
+\contentsline {subsection}{\numberline {1.1}Prima legge di Kirchhoff}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Connessione in parallelo}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Lezione 6}{5}{section.2}%
+\contentsline {section}{\numberline {3}Lezione 7}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}GPIO analogico}{6}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Lezione 8}{6}{section.4}%
+\contentsline {section}{\numberline {5}Lezione 9}{8}{section.5}%
+\contentsline {paragraph}{Conversione DA}{8}{section*.3}%
+\contentsline {section}{\numberline {6}Lezione 10}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Interrupt}{8}{subsection.6.1}%
+\contentsline {paragraph}{Condizioni}{8}{section*.4}%
+\contentsline {paragraph}{Funzione ISR}{9}{section*.5}%
+\contentsline {section}{\numberline {7}Lezione 11}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Componenti}{9}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Interruttore}{9}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Lampadine}{9}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Relè}{9}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Condensatore}{9}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Semiconduttori}{9}{subsubsection.7.1.5}%
+\contentsline {section}{\numberline {8}Lezione 12}{9}{section.8}%
+\contentsline {subsubsection}{\numberline {8.0.1}Sensori (quelli rossi)}{9}{subsubsection.8.0.1}%
+\contentsline {subsection}{\numberline {8.1}Tasking}{10}{subsection.8.1}%
+\contentsline {paragraph}{Process}{10}{section*.6}%
+\contentsline {paragraph}{Task}{10}{section*.7}%
+\contentsline {paragraph}{Thread (fisico)}{10}{section*.8}%
+\contentsline {paragraph}{Cooperative}{10}{section*.9}%
+\contentsline {paragraph}{Preemptive}{10}{section*.10}%
+\contentsline {subsubsection}{\numberline {8.1.1}Cooperative}{10}{subsubsection.8.1.1}%
+\contentsline {paragraph}{Multithread}{10}{section*.11}%
+\contentsline {paragraph}{Multithread}{10}{section*.12}%
