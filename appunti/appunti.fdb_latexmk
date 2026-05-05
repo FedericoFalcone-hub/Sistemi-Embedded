@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1777629038.34603 "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" "appunti.pdf" "appunti" 1777629040.98653 0
+["pdflatex"] 1777966530.48246 "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" "appunti.pdf" "appunti" 1777966538.78716 0
   "/etc/texmf/web2c/texmf.cnf" 1760861718.5102 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1760861786.54029 11524 f0e65b9f20707a96144d1e02adffe1dc ""
-  "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" 1777629038.11192 23738 161cbb63044809010676d5b17d10a274 ""
+  "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" 1777966529.94535 25624 600c5afb2645a5d01d5f14c6814e9807 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -67,6 +67,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1705352648 3045 273c666a54e60b9f730964f431a56c1b ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1705352648 2462 6bc53756156dbd71c1ad550d30a3b93f ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1705352648 5048 425739d70251273bf93e3d51f3c40048 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
@@ -107,6 +108,7 @@
   "Images/circuito1.png" 1775461552.18894 90121 5886dd6a7cad91e198b40c42ac44f812 ""
   "Images/circuito2.png" 1775466848.5606 221906 0dc61a7f1e9748b53b8aef44e5198b1d ""
   "Images/circuito3.png" 1777619161.81199 632544 b459181836734f775f0b71655bea6fa1 ""
+  "Images/condensatore_board.png" 1777898925.33049 68481 ab6dd602088da7f449b7069c3f9a924d ""
   "Images/gpio.png" 1775470799.37913 153467 929715ce7fdd034fd6ff52db7b3f6ce4 ""
   "Images/photoresistor.png" 1776067892.55249 1369497 50abc87e270ff5bc05f6df083a88ada8 ""
   "Images/photoresistor_circuit.png" 1776068108.50723 471767 4f1e049d579a5a6b202118a6f54edef3 ""
@@ -116,10 +118,12 @@
   "Images/pullupdown.png" 1775818087.94421 78339 753234d8eda84728d6ec66dd9ce8774d ""
   "Images/pullupdown2.png" 1775922390.55235 770910 ca4e600d8ea151e0fc839b48f0931089 ""
   "Images/relè.png" 1777458282.82928 16358 e62ec4d42ca14122744d506ef21b29aa ""
-  "appunti.aux" 1777629040.94221 3712 58a797612292e533a9778e107eb7aacd "pdflatex"
-  "appunti.out" 1777629040.94221 2464 91ed7af22d7bf4b9bc7e3e2f6093d363 "pdflatex"
-  "appunti.tex" 1777629038.11192 23738 161cbb63044809010676d5b17d10a274 ""
-  "appunti.toc" 1777629040.94306 2237 47bda5abf85789b8fb46c83a13c651dd "pdflatex"
+  "Images/transistor_circuito.png" 1777965582.25925 245457 f4676981cce55b3c451283a1089163c7 ""
+  "Images/transistor_npn.png" 1777964973.98718 10753 6b549f23b5f22b14397546588540c438 ""
+  "appunti.aux" 1777966538.7219 3938 26d71e945c31bb6268dc7e2cea7c02e4 "pdflatex"
+  "appunti.out" 1777966538.7229 2669 4128f3717566b27ac7592609bbd2026a "pdflatex"
+  "appunti.tex" 1777966529.94535 25624 600c5afb2645a5d01d5f14c6814e9807 ""
+  "appunti.toc" 1777966538.7229 2381 e4a132ffbe7157dd4fbacdcfc79c7544 "pdflatex"
   (generated)
   "appunti.aux"
   "appunti.log"

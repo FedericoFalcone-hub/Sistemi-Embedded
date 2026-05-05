@@ -30,3 +30,5 @@
 \contentsline {subsubsection}{\numberline {8.1.1}Cooperative}{10}{subsubsection.8.1.1}%
 \contentsline {paragraph}{Multithread}{10}{section*.11}%
 \contentsline {paragraph}{Multithread}{10}{section*.12}%
+\contentsline {section}{\numberline {9}Lezione 13}{10}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Transistor}{11}{subsection.9.1}%

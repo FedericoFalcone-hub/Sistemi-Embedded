@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage[a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{amsfonts}
@@ -231,4 +232,25 @@ Il cooperative semplice non ammette interruzioni. Esiste il cooperative con yiel
 \\ Vedi codice \href{run:../codice/Tasking/Tasking.ino}{Tasking.ino}. Utilizziamo la libreria \texttt{TaskScheduler}
 Il controllo lo diamo completamente allo scheduler nel loop.
 \\ Per un buon progetto pensare a \textbf{task}. Servono i prototipi delle funzioni.
+\section{Lezione 13}
+Si può testare il comportamente di un condensatore collegandolo ad un GPIO analogico.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/condensatore_board.png}
+\end{figure}
+Scrivendo high carico il condensatore, con low lo scarico. Sul GPIO analogico posso usarlo come tester, ovvero riesco a capire a che punto è arrivato il condensatore.
+\\ Vedi codice \href{run:../codice/PlotCapacitor/PlotCapacitor.ino}{PlotCapacitor.ino}.
+\\ Per avere un'etichetta nel plot, basta che nella print si fa Serial.print("Etichetta:") e poi Serial.print(valore). Nel codice, C è il valore del condensatore (Farad) calcolato.
+\subsection{Transistor}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{Images/transistor_npn.png}
+\end{figure}
+Il transistor è (ai nostri fini) quasi un interruttore. È nato come amplificatore, pilotare qualcosa di grande con qualcosa di piccolo. Meccanismo che permette di leggere il carico per pilotare per esempio un motore, ma usando una roba molto piccola (come GPIO) come consenso, meccanismo di attivazione o disattivazione.
+\\ B$\rightarrow$ base, E$\rightarrow$ emettitore, C$\rightarrow$ collettore. Solitamente emittore ground, collettore alimantazione. Tra emittotore e collettore scorre una corrente che è funzione della corrente che passa tra base ed emittitore. C-E fa passare la corrente solo se passa della corrente  (poca) tra B-E. Il flusso di corrente tra B-E permette di regolare il flusso tra C-E
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/transistor_circuito.png}
+\end{figure}
+Quanta corrente serve tra base ed emettitore per far passare una certa corrente? Molto poca. Con troppa corrente si brucia. Sotto gli 0.6-0.7V si spegne. Abbassando la base, si abbassa anche la corrente che passa tra C-E.
 \end{document}
