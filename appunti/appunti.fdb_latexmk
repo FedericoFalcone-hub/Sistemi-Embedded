@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1777966530.48246 "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" "appunti.pdf" "appunti" 1777966538.78716 0
+["pdflatex"] 1778232275.28649 "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" "appunti.pdf" "appunti" 1778232278.13566 0
   "/etc/texmf/web2c/texmf.cnf" 1760861718.5102 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1760861786.54029 11524 f0e65b9f20707a96144d1e02adffe1dc ""
-  "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" 1777966529.94535 25624 600c5afb2645a5d01d5f14c6814e9807 ""
+  "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" 1778232275.09586 27056 6285a648d4f045f62d4fcb0057191394 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -120,10 +120,10 @@
   "Images/relè.png" 1777458282.82928 16358 e62ec4d42ca14122744d506ef21b29aa ""
   "Images/transistor_circuito.png" 1777965582.25925 245457 f4676981cce55b3c451283a1089163c7 ""
   "Images/transistor_npn.png" 1777964973.98718 10753 6b549f23b5f22b14397546588540c438 ""
-  "appunti.aux" 1777966538.7219 3938 26d71e945c31bb6268dc7e2cea7c02e4 "pdflatex"
-  "appunti.out" 1777966538.7229 2669 4128f3717566b27ac7592609bbd2026a "pdflatex"
-  "appunti.tex" 1777966529.94535 25624 600c5afb2645a5d01d5f14c6814e9807 ""
-  "appunti.toc" 1777966538.7229 2381 e4a132ffbe7157dd4fbacdcfc79c7544 "pdflatex"
+  "appunti.aux" 1778232278.09037 4295 9e91c385b7b8df93144c2f49d515b00e "pdflatex"
+  "appunti.out" 1778232278.09137 3036 643df169cc50d209582e00144e147447 "pdflatex"
+  "appunti.tex" 1778232275.09586 27056 6285a648d4f045f62d4fcb0057191394 ""
+  "appunti.toc" 1778232278.09137 2615 5054d693af4dc3ec2f16e90380dc54b1 "pdflatex"
   (generated)
   "appunti.aux"
   "appunti.log"

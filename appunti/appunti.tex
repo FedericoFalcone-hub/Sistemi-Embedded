@@ -253,4 +253,21 @@ Il transistor è (ai nostri fini) quasi un interruttore. È nato come amplificat
     \includegraphics[width=0.5\textwidth]{Images/transistor_circuito.png}
 \end{figure}
 Quanta corrente serve tra base ed emettitore per far passare una certa corrente? Molto poca. Con troppa corrente si brucia. Sotto gli 0.6-0.7V si spegne. Abbassando la base, si abbassa anche la corrente che passa tra C-E.
+\subsection{Ponte H}
+Utilizzato di solito per pilotare comodamente la velocità di rotazione di un motore.*
+\section{Lezione 14}
+\subsection{Comunicazione "locale"}
+Comunicazione locale elettrica, nelle vicinanze.
+\\ Modulazione. Comunicazione con PWM, in cui si modula il duty cycle per trasmettere informazioni.
+\\ Vedi documento \href{run:https://gitlab.di.unimi.it/sistemiembedded/2024-2025/-/blob/master/comunicazioneLocale.md?ref_type=heads}{ComunicazioneLocale}.
+\\ In caso di segnale in ingresso digitale, il mittente prima trasmette e poi alza il clock, così non si rischia di leggere nel momento di indeterminatezza di quando il valore sta salendo o scendendo. Se il clock è \textbf{anticipato} rispetto al segnale prende sempre gli 0, se invece è lievemente \textbf{posticipato} sono certo di prendere almeno il primo \texttt{high}.
+Il periodo del clock deve essere confrontabile con quello del segnale: è il clock stesso che dice quanto dura un bit.
+\\ Cosa mi serve per una comunicazione?
+\begin{itemize}
+    \item GND (riferimento comune per la tensione);
+    \item dati (half o full duplex);
+    \item clock (e se vogl);
+    \item select o bus (informazione che mi dice a chi voglio parlare. Utile se condivido i primi 3).
+\end{itemize}
+Per avere un clock interno che si sincronizza con il segnale, azzero il clock dopo pochi ms dall'inizio del segnale. Una volta letti i bit decisi dal protocollo, azzero tutto.
 \end{document}
