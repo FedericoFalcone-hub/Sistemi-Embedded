@@ -270,4 +270,21 @@ Il periodo del clock deve essere confrontabile con quello del segnale: è il clo
     \item select o bus (informazione che mi dice a chi voglio parlare. Utile se condivido i primi 3).
 \end{itemize}
 Per avere un clock interno che si sincronizza con il segnale, azzero il clock dopo pochi ms dall'inizio del segnale. Una volta letti i bit decisi dal protocollo, azzero tutto.
+\section{Lezione 15}
+\subsection{Bit banging}
+In caso non avessi dell'hardware per il clock, posso utilizzare il \textbf{bit banging}.
+\subsection{Comunicazione "lontana"}
+Comunicazione fatta wi-fi/bluethooth. Uno dei protocolli più utilizzati è MQTT (TCP/IP). È basato su un pattern chiamato Publish-Subscribe, il quale si basa che i fornitori di informazioni (pubblicatori) e i consumatori (sottoscrittori) non si conoscono, cioè un publisher non sa quanti subscriber ci sono per le info che sta generando. Si trovano perchè il mittente invia l'informazione etichettata, il ricevente dichiara di essere interessato all'informazione etichettata.
+Il meccanismo è semplice, si basa sul fatto che esistono, oltre ai due ruoli, esistono i \textbf{broker}, che gestiscono le informazioni, che sono i "centralini" che raccolgono le info che vengono pubblicate dai publisher e le distribuiscono ai subscriber.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/broker.png}
+\end{figure}
+Il singolo nodo che si sveglia deve sapere qual è il broker al quale connettersi, se vuol fare la pubblisher si connette al broker e quando viene pubbliato dice al broker ho un messaggio pronto con questa etichetta. Il subscriber deve connettersi al broker e deve elencare al broker quali sono i suoi interessi (quali etichette), da quel momento rimane in contatto con il socket aperto verso il broker e quando il broker incontra, gli vengono dati messaggi  con quelle etichette che ha chiesto, gli gira il messaggio.
+A quel punto farà una certa cosa.
+\\ Il messaggio MQTT è formato da 2 componenti principali: il \textbf{topic}, etichetta e un \textbf{payload} che è il contenuto del messaggio. Esempio: Appartamento/Sala/Temperatura $<$valore$>$.Il topic è una stringa. Se io fossi interessato a tutte le temperature di tutto l'appartamento, c'è un meccanismo di wildcard. Quello che viene dopo è il corpo.
+\\ Dico al broker che sono interessato ad un topic, quando il broker ci inoltrerà il messaggio viene invocata una funzione \textbf{callback} che ha come parametro tra i suoi il payload
+\\ Wildcards: \# prende tutti i topic e tutti i subtopic. + tutti i topic ma senza i subtopic.
+\\ Mosquitto.
+
 \end{document}

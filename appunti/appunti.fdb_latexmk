@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1778232275.28649 "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" "appunti.pdf" "appunti" 1778232278.13566 0
+["pdflatex"] 1778694436.6711 "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" "appunti.pdf" "appunti" 1778694445.67288 0
   "/etc/texmf/web2c/texmf.cnf" 1760861718.5102 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1760861786.54029 11524 f0e65b9f20707a96144d1e02adffe1dc ""
-  "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" 1778232275.09586 27056 6285a648d4f045f62d4fcb0057191394 ""
+  "/home/federico/Documents/Sistemi-Embedded/appunti/appunti.tex" 1778694436.26741 29285 0b636387f79e5d175cfc8030601d9140 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -105,6 +105,7 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1774280427.37506 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776940440 6802365 c2d60b6cd6bfa4f791fc22b51fd47f63 ""
   "Images/blink.png" 1775763142.20489 144125 23c9377d0a390902660b76523e6f781f ""
+  "Images/broker.png" 1778486154.9759 806497 569fe328ea157bbf9689d3978d799411 ""
   "Images/circuito1.png" 1775461552.18894 90121 5886dd6a7cad91e198b40c42ac44f812 ""
   "Images/circuito2.png" 1775466848.5606 221906 0dc61a7f1e9748b53b8aef44e5198b1d ""
   "Images/circuito3.png" 1777619161.81199 632544 b459181836734f775f0b71655bea6fa1 ""
@@ -120,10 +121,10 @@
   "Images/relè.png" 1777458282.82928 16358 e62ec4d42ca14122744d506ef21b29aa ""
   "Images/transistor_circuito.png" 1777965582.25925 245457 f4676981cce55b3c451283a1089163c7 ""
   "Images/transistor_npn.png" 1777964973.98718 10753 6b549f23b5f22b14397546588540c438 ""
-  "appunti.aux" 1778232278.09037 4295 9e91c385b7b8df93144c2f49d515b00e "pdflatex"
-  "appunti.out" 1778232278.09137 3036 643df169cc50d209582e00144e147447 "pdflatex"
-  "appunti.tex" 1778232275.09586 27056 6285a648d4f045f62d4fcb0057191394 ""
-  "appunti.toc" 1778232278.09137 2615 5054d693af4dc3ec2f16e90380dc54b1 "pdflatex"
+  "appunti.aux" 1778694445.6243 4659 682c13a1ec4966bf0c5dcb42c95e2afe "pdflatex"
+  "appunti.out" 1778694445.6253 3430 71f5707fa51f64ab809931af611d0da3 "pdflatex"
+  "appunti.tex" 1778694436.26741 29285 0b636387f79e5d175cfc8030601d9140 ""
+  "appunti.toc" 1778694445.6253 2856 3cd109568c9ffdf4ab0911ac1679a0ad "pdflatex"
   (generated)
   "appunti.aux"
   "appunti.log"

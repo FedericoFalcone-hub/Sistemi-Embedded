@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.23)  8 MAY 2026 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.23)  13 MAY 2026 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -405,34 +405,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<Images/circuito1.png, id=151, 674.52pt x 1063.975pt>
+<Images/circuito1.png, id=166, 674.52pt x 1063.975pt>
 File: Images/circuito1.png Graphic file (type png)
 <use Images/circuito1.png>
 Package pdftex.def Info: Images/circuito1.png  used on input line 53.
 (pdftex.def)             Requested size: 113.81102pt x 179.50961pt.
-<Images/circuito2.png, id=152, 1196.47pt x 1086.0575pt>
+<Images/circuito2.png, id=167, 1196.47pt x 1086.0575pt>
 File: Images/circuito2.png Graphic file (type png)
 <use Images/circuito2.png>
 Package pdftex.def Info: Images/circuito2.png  used on input line 69.
 (pdftex.def)             Requested size: 113.81102pt x 103.29253pt.
  [3 <./Images/circuito1.png (PNG copy)> <./Images/circuito2.png>]
-<Images/gpio.png, id=161, 1248.665pt x 1035.87pt>
+<Images/gpio.png, id=177, 1248.665pt x 1035.87pt>
 File: Images/gpio.png Graphic file (type png)
 <use Images/gpio.png>
 Package pdftex.def Info: Images/gpio.png  used on input line 80.
 (pdftex.def)             Requested size: 113.81102pt x 94.40973pt.
  [4 <./Images/gpio.png>]
-<Images/blink.png, id=167, 1722.435pt x 586.19pt>
+<Images/blink.png, id=183, 1722.435pt x 586.19pt>
 File: Images/blink.png Graphic file (type png)
 <use Images/blink.png>
 Package pdftex.def Info: Images/blink.png  used on input line 101.
 (pdftex.def)             Requested size: 455.24411pt x 154.92816pt.
-<Images/pullupdown.png, id=168, 1967.35pt x 1738.495pt>
+<Images/pullupdown.png, id=184, 1967.35pt x 1738.495pt>
 File: Images/pullupdown.png Graphic file (type png)
 <use Images/pullupdown.png>
 Package pdftex.def Info: Images/pullupdown.png  used on input line 107.
 (pdftex.def)             Requested size: 227.62206pt x 201.12971pt.
-<Images/pullupdown2.png, id=169, 1487.5575pt x 1328.965pt>
+<Images/pullupdown2.png, id=185, 1487.5575pt x 1328.965pt>
 File: Images/pullupdown2.png Graphic file (type png)
 <use Images/pullupdown2.png>
 Package pdftex.def Info: Images/pullupdown2.png  used on input line 108.
@@ -443,23 +443,23 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 107--109
  []
 
 [5 <./Images/blink.png> <./Images/pullupdown.png> <./Images/pullupdown2.png>]
-<Images/pullup.png, id=176, 1477.52pt x 981.6675pt>
+<Images/pullup.png, id=191, 1477.52pt x 981.6675pt>
 File: Images/pullup.png Graphic file (type png)
 <use Images/pullup.png>
 Package pdftex.def Info: Images/pullup.png  used on input line 136.
 (pdftex.def)             Requested size: 227.62206pt x 151.22818pt.
-<Images/pullup_code.png, id=177, 1102.1175pt x 736.7525pt>
+<Images/pullup_code.png, id=192, 1102.1175pt x 736.7525pt>
 File: Images/pullup_code.png Graphic file (type png)
 <use Images/pullup_code.png>
 Package pdftex.def Info: Images/pullup_code.png  used on input line 141.
 (pdftex.def)             Requested size: 227.62206pt x 152.15942pt.
  [6 <./Images/pullup.png>]
-<Images/photoresistor.png, id=182, 2589.675pt x 1483.5425pt>
+<Images/photoresistor.png, id=197, 2589.675pt x 1483.5425pt>
 File: Images/photoresistor.png Graphic file (type png)
 <use Images/photoresistor.png>
 Package pdftex.def Info: Images/photoresistor.png  used on input line 155.
 (pdftex.def)             Requested size: 227.62206pt x 130.38916pt.
-<Images/photoresistor_circuit.png, id=183, 1493.58pt x 626.34pt>
+<Images/photoresistor_circuit.png, id=198, 1493.58pt x 626.34pt>
 File: Images/photoresistor_circuit.png Graphic file (type png)
 <use Images/photoresistor_circuit.png>
 Package pdftex.def Info: Images/photoresistor_circuit.png  used on input line 156.
@@ -469,7 +469,7 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 155--157
 [][] [] 
  []
 
-<Images/photoresistor_potentiometer.png, id=184, 1541.76pt x 1547.7825pt>
+<Images/photoresistor_potentiometer.png, id=199, 1541.76pt x 1547.7825pt>
 File: Images/photoresistor_potentiometer.png Graphic file (type png)
 <use Images/photoresistor_potentiometer.png>
 Package pdftex.def Info: Images/photoresistor_potentiometer.png  used on input line 162.
@@ -480,7 +480,7 @@ Overfull \hbox (17.35742pt too wide) in paragraph at lines 182--187
  []
 
 [8]
-<Images/relè.png, id=196, 339.2675pt x 238.8925pt>
+<Images/relè.png, id=211, 339.2675pt x 238.8925pt>
 File: Images/relè.png Graphic file (type png)
 <use Images/relè.png>
 Package pdftex.def Info: Images/relè.png  used on input line 205.
@@ -490,13 +490,13 @@ Package pdftex.def Info: Images/relè.png  used on input line 205.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 214.
 
-<Images/circuito3.png, id=197, 2027.575pt x 1288.815pt>
+<Images/circuito3.png, id=212, 2027.575pt x 1288.815pt>
 File: Images/circuito3.png Graphic file (type png)
 <use Images/circuito3.png>
 Package pdftex.def Info: Images/circuito3.png  used on input line 217.
 (pdftex.def)             Requested size: 227.62206pt x 144.6806pt.
 [9 <./Images/relè.png> <./Images/circuito3.png>]
-<Images/condensatore_board.png, id=204, 840.13875pt x 508.90125pt>
+<Images/condensatore_board.png, id=219, 840.13875pt x 508.90125pt>
 File: Images/condensatore_board.png Graphic file (type png)
 <use Images/condensatore_board.png>
 Package pdftex.def Info: Images/condensatore_board.png  used on input line 239.
@@ -506,38 +506,44 @@ Overfull \hbox (5.31227pt too wide) in paragraph at lines 241--244
 \OT1/cmr/m/n/10 Per avere un'etichetta nel plot, basta che nella print si fa Se-rial.print("Etichetta:") e poi Se-rial.print(valore).
  []
 
-<Images/transistor_npn.png, id=207, 431.6125pt x 437.635pt>
+<Images/transistor_npn.png, id=222, 431.6125pt x 437.635pt>
 File: Images/transistor_npn.png Graphic file (type png)
 <use Images/transistor_npn.png>
 Package pdftex.def Info: Images/transistor_npn.png  used on input line 247.
 (pdftex.def)             Requested size: 113.81102pt x 115.39842pt.
 [10 <./Images/condensatore_board.png>]
-<Images/transistor_circuito.png, id=220, 1144.275pt x 861.2175pt>
+<Images/transistor_circuito.png, id=235, 1144.275pt x 861.2175pt>
 File: Images/transistor_circuito.png Graphic file (type png)
 <use Images/transistor_circuito.png>
 Package pdftex.def Info: Images/transistor_circuito.png  used on input line 253.
 (pdftex.def)             Requested size: 227.62206pt x 171.30742pt.
- [11 <./Images/transistor_npn.png> <./Images/transistor_circuito.png>] [12] (./appunti.aux)
+ [11 <./Images/transistor_npn.png> <./Images/transistor_circuito.png>]
+<Images/broker.png, id=241, 2156.055pt x 682.55pt>
+File: Images/broker.png Graphic file (type png)
+<use Images/broker.png>
+Package pdftex.def Info: Images/broker.png  used on input line 281.
+(pdftex.def)             Requested size: 227.62206pt x 72.05pt.
+ [12 <./Images/broker.png>] (./appunti.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `appunti.out' has not changed.
-(rerunfilecheck)             Checksum: 643DF169CC50D209582E00144E147447;3036.
+(rerunfilecheck)             Checksum: 71F5707FA51F64AB809931AF611D0DA3;3430.
  ) 
 Here is how much of TeX's memory you used:
- 11934 strings out of 476171
- 182678 string characters out of 5795119
- 1937975 words of memory out of 5000000
- 33737 multiletter control sequences out of 15000+600000
+ 11947 strings out of 476171
+ 182931 string characters out of 5795119
+ 1939975 words of memory out of 5000000
+ 33747 multiletter control sequences out of 15000+600000
  566541 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,7n,79p,587b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,601b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/federico/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on appunti.pdf (12 pages, 4840373 bytes).
+Output written on appunti.pdf (12 pages, 5348266 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
